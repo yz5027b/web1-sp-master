@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Your awesome title</title>
+	<meta name="description" content="">
+	
+	<!-- Enable responsive layouts; tell browsers not to shrink pages to fit small screens -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Load styles -->
+	<!-- For production, combine all of the stylesheets -->
+	<link rel="stylesheet" href="/web1-sp-dev/css/sitewide.css">
+	
+	<!-- pull in webfonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Page content goes inside the container -->
+	<!-- In general, you should have only one container per page. -->
+	<div class="container">
+
+        <p><a href="http://adavidramos.github.io/web1-sp-dev">Home</a></p>
+
+        <h1></h1>
+
+        
+
+        <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Your awesome title</title>
+		<description>A starter site</description>
+		<link>http://adavidramos.github.io/web1-sp-dev</link>
+		<atom:link href="http://adavidramos.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Test</title>
+				<description></description>
+				<pubDate>Wed, 10 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://adavidramos.github.io/web1-sp-dev/2018/01/10/test.html</link>
+				<guid isPermaLink="true">http://adavidramos.github.io/web1-sp-dev/2018/01/10/test.html</guid>
+			</item>
+		
+			<item>
+				<title>Hello world</title>
+				<description></description>
+				<pubDate>Tue,  9 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://adavidramos.github.io/web1-sp-dev/2018/01/09/hello.html</link>
+				<guid isPermaLink="true">http://adavidramos.github.io/web1-sp-dev/2018/01/09/hello.html</guid>
+			</item>
+		
+	</channel>
+</rss>
+
+	</div><!-- end container -->
+	
+</body>
+</html>
